@@ -143,62 +143,6 @@ class _HomePageState extends State<HomePage> {
               }).toList();
             },
           ),
-          //Padding(padding: EdgeInsets.only(top: 400)),
-          // IconButton(
-          //   icon: Icon(Icons.account_circle),
-          //   onPressed: () {
-          //     Container(
-          //       child: DropdownButton<String>(
-          //         isExpanded: true,
-          //         value: _chosenValue,
-          //         //elevation: 5,
-          //         style: TextStyle(color: Colors.black, fontSize: 20),
-          //
-          //         items: <String>[
-          //           'Available',
-          //           'Busy',
-          //           'At School',
-          //           'At the movies',
-          //           'At work',
-          //           'Battery About To Die',
-          //           'Cant talk, SafeChat only',
-          //           'In a meeting',
-          //           'At the gym',
-          //           'Sleeping',
-          //           'Urgent Calls only'
-          //         ].map<DropdownMenuItem<String>>((String value) {
-          //           return DropdownMenuItem<String>(
-          //             value: value,
-          //             child: Text(value),
-          //           );
-          //         }).toList(),
-          //         hint: Text(
-          //           "Please select a status",
-          //           style: TextStyle(
-          //               color: Colors.black,
-          //               fontSize: 20,
-          //               fontWeight: FontWeight.w600),
-          //         ),
-          //         onChanged: (String value) {
-          //           setState(() {
-          //             _chosenValue = value;
-          //           });
-          //         },
-          //       ),
-          //     );
-          //     // Navigator.push(
-          //     //   context,
-          //     //   MaterialPageRoute(builder: (context) => Holdings()),
-          //     // );
-          //     //_auth.signOut();
-          //     //Navigator.pushNamed(context, WelcomeScreen.id);
-          //   },
-          // ),
-//          PopupMenuButton<String>(
-//            itemBuilder: (BuildContext context) {
-//              return choices;
-//            },
-//          ),
         ],
       ),
       body: SafeArea(
